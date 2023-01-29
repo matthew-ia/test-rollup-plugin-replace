@@ -41,6 +41,7 @@ export default {
 	plugins: [
 		replace({
 			'@FOO': 'bar',
+			'@BAR': 'foo',
 		}),
 		svelte({
 			compilerOptions: {
